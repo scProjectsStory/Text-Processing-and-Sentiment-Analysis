@@ -1,5 +1,3 @@
-# Part 3: Mining text data.
-
 import random
 import numpy as np
 import csv
@@ -18,7 +16,6 @@ import matplotlib.pyplot as plt # Drawing plot
 
 # Return a pandas dataframe containing the data set.
 # Specify a 'latin-1' encoding when reading the data.
-# data_file will be populated with the string 'wholesale_customers.csv'.
 def read_csv_3(data_file):
 	df = pd.read_csv(data_file, encoding='latin-1')  # Change read format to latin-1
 	return df
